@@ -1,0 +1,14 @@
+# .env
+
+# Django Settings
+DEBUG=True
+SECRET_KEY=your_secret_key_here
+ALLOWED_HOSTS=127.0.0.1,localhost
+
+# Database Settings
+DB_ENGINE=django.db.backends.mysql
+DB_NAME=alx_travel_db
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
+DB_HOST=127.0.0.1
+DB_PORT=3306
